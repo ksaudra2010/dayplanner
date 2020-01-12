@@ -23,6 +23,7 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  width: 750px;
 }
 
 .time-block{
@@ -59,8 +60,8 @@ textarea{
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   background-color: #06AED5;
   color: white;
 }
@@ -69,3 +70,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
