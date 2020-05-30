@@ -18,7 +18,6 @@ $('.description').each(function () {
     if (savedDescription) {
         $(this).val(savedDescription)
     }
-
 })
 $('.saveBtn').on('click', function () {
     var description = $(this).parent().parent().find('.description')
