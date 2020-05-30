@@ -19,6 +19,7 @@ $('.description').each(function () {
         $(this).val(savedDescription)
     }
 })
+
 $('.saveBtn').on('click', function () {
     var description = $(this).parent().parent().find('.description')
     var time = description.data('time');
