@@ -1,7 +1,7 @@
 var currentDay = moment().format('MMMM Do YYYY, h:mm a');
 $('#currentDay').text(currentDay)
 setInterval(function () { refresh; }, 1000);
-
+// Setting up the function for what time of day it is
 var currentHour = new Date().getHours()
 console.log(currentHour);
 $('.description').each(function () {
