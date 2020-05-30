@@ -1,6 +1,5 @@
 # Day Planner
 Calendar Day Planner
-
 <br>
 USE:
 Add meetings and reminders to this calendar to make your day more efficient. 
